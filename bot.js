@@ -140,8 +140,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/wUFhaZ
+         :hearts: الموقع الرسمي للبوت https://discord.gg/wUFhaZ
    message.author.sendEmbed(embed)
    
    }
@@ -152,8 +152,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/wUFhaZ
+         :hearts: الموقع الرسمي للبوت https://discord.gg/wUFhaZ
    message.author.sendEmbed(embed)
    
    }
@@ -164,8 +164,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/wUFhaZ
+         :hearts: الموقع الرسمي للبوت https://discord.gg/wUFhaZ
    message.author.sendEmbed(embed)
    
    }
@@ -176,8 +176,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/wUFhaZ
+         :hearts: الموقع الرسمي للبوت https://discord.gg/wUFhaZ
    message.author.sendEmbed(embed)
    
    }
@@ -188,8 +188,8 @@ client.on('message', message => {
      const embed = new Discord.RichEmbed() 
          .setThumbnail(message.author.avatarURL)
          .setColor("#00FF00")
-         .setDescription(`**  السيرفر الرسمي للبوت :  :dove:  https://discord.gg/TZ3dcyC :scroll:
-         :hearts: الموقع الرسمي للبوت https://aboodealnaimat.wixsite.com/superbot: website here  :hearts: **`)
+         .setDescription(`**  السيرفر الرسمي للبوت :  https://discord.gg/wUFhaZ
+         :hearts: الموقع الرسمي للبوت: https://discord.gg/wUFhaZ
    message.author.sendEmbed(embed)
    
    }
@@ -1718,7 +1718,7 @@ msg.channel.send(embed).then(() => {
 
 client.on('ready', function(){	
     var ms = 40000 ;	
-    var setGame = ['-inv','-help'];	
+    var setGame = ['الملك دارك'];	
     var i = -1;	
     var j = 0;	
     setInterval(function (){	
@@ -1729,7 +1729,7 @@ j = 1;
             j = -1;	
       }	
        i = i+j;	
-        client.user.setGame(setGame[i],`http://www.youtube.com/gg`);	
+        client.user.setGame(setGame[i],`https://www.youtube.com/channel/UCnQxptZaWG_j-Ed5kG6pETA?view_as=subscriber`);	
 }, ms);	
 	
 });
@@ -2505,8 +2505,8 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`:small_orange_diamond: اضغط هنا `)
-        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=466256531998900246&permissions=8&scope=bot`)
-        .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
+        .setURL(`https://discordapp.com/api/oauth2/authorize?client_id=515610295058563073&permissions=8&scope=bot`)
+        .setThumbnail(" https://discordapp.com/api/oauth2/authorize?client_id=515610295058563073&permissions=8&scope=bot")        
      message.channel.sendEmbed(embed);
        }
    });
@@ -3095,7 +3095,7 @@ var prefix = "-";
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-/*جميع الحقوق محفوظهه لريبل ولسيرفر كودز
+/*جميع الحقوق محفوظهه دارك ولسيرفر اوفر شوب
 رآح يرسل للأونر تحذير + م يتطلب ملفات سويته لكم داتا مؤقت
 سو روم بأسم log 
 أو غيره من الكود عشان يرسل هنا التحذير
